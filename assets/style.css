@@ -197,3 +197,6 @@ a:hover{
     }
 
 }
+.novel-content{
+    white-space: pre-wrap;
+}
