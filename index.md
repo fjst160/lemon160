@@ -15,6 +15,7 @@ title: 日和
 ## Menu
 
 - [作品一覧](novels.html)
+- [Archive](archive.html)
 - [更新履歴](history.html)
 
 ---
