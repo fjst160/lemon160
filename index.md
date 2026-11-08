@@ -29,10 +29,4 @@ title: 日和
 
 ## Link
 
-[X](https://x.com/fjwrcst_story)
-
-[Bluesky](https://bsky.app/profile/fjst160.bsky.social)
-
-[pixiv](https://www.pixiv.net/users/1887563)
-
-[BOOTH](https://fjstlemon.booth.pm/)
+[X](https://x.com/fjwrcst_story)　　[Bluesky](https://bsky.app/profile/fjst160.bsky.social)　　[pixiv](https://www.pixiv.net/users/1887563)　　[BOOTH](https://fjstlemon.booth.pm/)
