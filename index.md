@@ -12,11 +12,7 @@ title: 日和
 
 ---
 
-## Menu
 
-[Novel](novels.html)　　　[Archive](archive.html)　　　[History](history.html)
-
----
 
 ## 最新更新
 
