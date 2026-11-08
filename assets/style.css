@@ -60,3 +60,8 @@ li{
 p{
     margin: 1rem 0;
 }
+
+a:hover{
+    color: #8b0000;
+    text-decoration: underline;
+}
