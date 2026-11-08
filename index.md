@@ -14,11 +14,7 @@ title: 日和
 
 ## Menu
 
-[Novel](novels.html)
-
-[Archive](archive.html)
-
-[History](history.html)
+[Novel](novels.html)　　　[Archive](archive.html)　　　[History](history.html)
 
 ---
 
