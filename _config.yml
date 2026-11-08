@@ -1,6 +1,8 @@
 title: 日和
 description: 刀剣乱舞二次創作小説保管
 
+baseurl: "/lemon160"
+
 collections:
   novels:
     output: true
