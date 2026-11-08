@@ -112,3 +112,9 @@ nav{
 nav a{
     padding: 0 0.5rem;
 }
+
+.menu{
+    display:flex;
+    gap:2rem;
+    justify-content:center;
+}
