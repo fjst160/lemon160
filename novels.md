@@ -35,3 +35,30 @@ title: 作品一覧
 - [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})
 {% endif %}
 {% endfor %}
+
+
+## 全年齢
+
+{% for novel in site.novels %}
+{% if novel.rating == "全年齢" %}
+- {{ site.baseurl }}{{ novel.url }}
+{% endif %}
+{% endfor %}
+
+## R15
+
+{% for novel in site.novels %}
+{% if novel.rating == "R15" %}
+- {{ site.baseurl }}{{ novel.url }}
+{% endif %}
+{% endfor %}
+
+## R18
+
+{% for novel in site.novels %}
+{% if novel.rating == "R18" %}
+- {{ site.baseurl }}{{ novel.url }}
+{% endif %}
+{% endfor %}
+
+
