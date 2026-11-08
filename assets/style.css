@@ -187,3 +187,14 @@ h1{
     }
 
 }
+/* 小説本文 */
+
+.novel-content{
+    font-family:
+        "BIZ UDPGothic",
+        "Yu Gothic",
+        "Hiragino Sans",
+        sans-serif;
+
+    line-height: 2.4;
+}
