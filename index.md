@@ -14,9 +14,9 @@ title: 日和
 
 ## Menu
 
-- [作品一覧](novels.html)
+- [Novel](novels.html)
 - [Archive](archive.html)
-- [更新履歴](history.html)
+- [History](history.html)
 
 ---
 
@@ -34,8 +34,7 @@ title: 日和
 
 サークル名：柑橘日和
 
-- ぶぜさにしか書けない
-- ハッピーエンドしか書けない
+ぶぜさに・ハッピーエンド：転生現パロも好き
 
 ---
 
