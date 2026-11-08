@@ -6,7 +6,7 @@
 
 
 
-[作品](/lemon160/novels.html)
+[作品](novels.html)
 
 X
 BlueSky
