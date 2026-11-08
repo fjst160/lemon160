@@ -28,8 +28,16 @@ title: 日和
 
 ---
 
+## About
+藤原千郷　/　藤郷
+・ぶぜさにしか書けない
+・ハッピーエンドしか書けない
+
+---
+
 ## Link
 
 - [X](https://x.com/fjwrcst_story)
 - [Bluesky](https://bsky.app/profile/fjst160.bsky.social)
 - [pixiv](https://www.pixiv.net/users/1887563)
+- [BOOTH](https://fjstlemon.booth.pm/)
