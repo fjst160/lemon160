@@ -8,7 +8,7 @@ title: 作品一覧
 
 {% for novel in site.novels %}
 {% if novel.length == "短編" %}
-- [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})
+- [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）
 {% endif %}
 {% endfor %}
 
@@ -16,7 +16,7 @@ title: 作品一覧
 
 {% for novel in site.novels %}
 {% if novel.length == "中編" %}
-- [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})
+- [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）
 {% endif %}
 {% endfor %}
 
@@ -24,7 +24,7 @@ title: 作品一覧
 
 {% for novel in site.novels %}
 {% if novel.length == "長編" %}
-- [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})
+- [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）
 {% endif %}
 {% endfor %}
 
@@ -32,33 +32,6 @@ title: 作品一覧
 
 {% for novel in site.novels %}
 {% if novel.length == "連載" %}
-- [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})
+- [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）
 {% endif %}
 {% endfor %}
-
-
-## 全年齢
-
-{% for novel in site.novels %}
-{% if novel.rating == "全年齢" %}
-- {{ site.baseurl }}{{ novel.url }}
-{% endif %}
-{% endfor %}
-
-## R15
-
-{% for novel in site.novels %}
-{% if novel.rating == "R15" %}
-- {{ site.baseurl }}{{ novel.url }}
-{% endif %}
-{% endfor %}
-
-## R18
-
-{% for novel in site.novels %}
-{% if novel.rating == "R18" %}
-- {{ site.baseurl }}{{ novel.url }}
-{% endif %}
-{% endfor %}
-
-
