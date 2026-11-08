@@ -6,3 +6,6 @@ baseurl: "/lemon160"
 collections:
   novels:
     output: true
+
+    kramdown:
+  hard_wrap: true
