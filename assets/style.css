@@ -59,10 +59,12 @@ h1{
 
     color: #7a3030;
 
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
+    text-align: center;
 
-    border-bottom: 1px solid #ddd;
+    margin: 1rem 0 0.5rem;
+
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 /* ========================================
