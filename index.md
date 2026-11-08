@@ -1,12 +1,33 @@
+---
+title: 日和
+---
+
 # 日和
 
-藤原千郷/藤郷
+刀剣乱舞二次創作小説保管庫。
 
-刀剣乱舞二次創作小説/保管
+主にぶぜさにを取り扱っています。
 
+---
 
+## Menu
 
-[作品](novels.html)
+- [作品一覧](novels.html)
+- [更新履歴](history.html)
 
-X
-BlueSky
+---
+
+## 最新更新
+
+2026-11-08
+
+- サイト開設
+- テスト作品公開
+
+---
+
+## Link
+
+- [X](https://x.com/fjwrcst_story)
+- [Bluesky](https://bsky.app/profile/fjst160.bsky.social)
+- [pixiv](https://www.pixiv.net/users/1887563)
