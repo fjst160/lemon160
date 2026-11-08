@@ -143,3 +143,15 @@ a:hover{
 ::selection{
     background: #e4caca;
 }
+h1{
+    font-size: 2.6rem;
+    font-weight: normal;
+    color: #7a3030;
+
+    border-bottom: none;
+
+    text-align: center;
+
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
