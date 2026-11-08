@@ -3,9 +3,9 @@
 layout: default
 title: 日和
 ---
-
+<div class="intro">
 刀剣乱舞 二次創作小説 保管庫。主に豊前江×女審神者（ぶぜさに）を取り扱っています。
-
+</div>
 ---
 
 
