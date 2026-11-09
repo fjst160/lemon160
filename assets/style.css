@@ -230,9 +230,9 @@ a:hover{
         font-size: 1.8rem;
     }
    
-    .intro{
-        font-size: 0.8rem;
-        line-height: 1.8;
-    }
+.intro{
+    font-size: 0.5rem !important;
+    color: red;
+}
 
 }
