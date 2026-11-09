@@ -184,6 +184,18 @@ a:hover{
     background: #e4caca;
 }
 
+.wavebox{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.wavebox a{
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+
+
 /* ========================================
    スマホ
 ======================================== */
@@ -214,12 +226,15 @@ a:hover{
 
 }
 
-.wavebox{
-    text-align: center;
-    margin: 2rem 0;
-}
 
-.wavebox a{
-    display: inline-block;
-    margin-top: 0.5rem;
+
+@media screen and (max-width: 768px){
+
+    ...
+
+    .intro{
+        font-size: 0.85rem;
+        line-height: 2;
+    }
+
 }
