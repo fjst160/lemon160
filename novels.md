@@ -20,7 +20,12 @@ title: 作品一覧
 
 {% for novel in site.novels %}
 {% if novel.length == "連載" %}
-- [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）
+ [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）
+
+{% if novel.subtitle %}
+  <div class="novel-subtitle">
+    {{ novel.subtitle }}
+  </div>
 {% endif %}
 {% endfor %}
 
