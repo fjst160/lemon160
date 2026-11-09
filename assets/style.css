@@ -61,12 +61,15 @@ h1{
 }
 
 .novel-subtitle{
-    font-size: 0.85rem;
-    color: #666;
+    font-size: 0.75rem;
+    color: #777;
 
-    margin-left: 1.5rem;
-    margin-top: -0.2rem;
-    margin-bottom: 0.8rem;
+    margin-left: 0.8rem;
+
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+
+    line-height: 1.4;
 }
 
 /* ========================================
@@ -244,4 +247,9 @@ a:hover{
     line-height: 1.5;
 }
 
+.novel-subtitle{
+    font-size: 0.65rem;
+    line-height: 1.3;
+}
+   
 }
