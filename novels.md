@@ -20,8 +20,6 @@ title: 作品一覧
 
 ## 連載
 
-## 連載
-
 {% for series in site.series %}
 
 [{{ series.title }}]({{ site.baseurl }}{{ series.url }})（{{ series.rating }}{% if series.setting == "現パロ" %}・現パロ{% endif %}）{% if series.subtitle %}<span class="novel-subtitle">｜ {{ series.subtitle }}</span>{% endif %}
