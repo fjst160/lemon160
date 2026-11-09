@@ -2,8 +2,18 @@
 layout: default
 title: 作品一覧
 ---
+<div class="wavebox">
 
-<a href="https://wavebox.me/wave/51k3vxs5906gcigl/">💬 ご感想や応援のメッセージをいただけると嬉しいです（Wavebox）</a>
+💬 ご感想や応援のメッセージをいただけると嬉しいです
+
+<br>
+
+<a href="[ここにWaveboxのURL](https://wavebox.me/wave/51k3vxs5906gcigl/)">
+▶ Wavebox
+</a>
+
+</div>
+
 
 # 作品一覧
 
