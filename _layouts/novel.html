@@ -2,7 +2,17 @@
 layout: default
 ---
 
-<h1 class="novel-title">{{ page.title }}</h1>
+<h1 class="novel-title">
+
+{{ page.title }}
+
+{% if page.subtitle %}
+<span class="subtitle">
+{{ page.subtitle }}
+</span>
+{% endif %}
+
+</h1>
 
 <p>
 {{ page.length }} ｜ {{ page.rating }}
