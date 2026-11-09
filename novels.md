@@ -3,7 +3,7 @@ layout: default
 title: 作品一覧
 ---
 
-💬 感想はこちら（Wavebox）
+<a href="https://wavebox.me/wave/51k3vxs5906gcigl/">💬 ご感想や応援のメッセージをいただけると嬉しいです（Wavebox）</a>
 
 # 作品一覧
 
