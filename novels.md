@@ -4,13 +4,8 @@ title: 作品一覧
 ---
 <div class="wavebox">
 
-<div class="wavebox-message">
-💬 ご感想はこちら
-</div>
-
-<a
-  class="wavebox-link"
-  href="https://wavebox.me/wave/51k3vxs5906gcigl/">
+💬 ご感想はこちら　
+<a href="https://wavebox.me/wave/51k3vxs5906gcigl/">
 ▶ Wavebox
 </a>
 
