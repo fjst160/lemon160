@@ -4,12 +4,16 @@ title: 作品一覧
 ---
 <div class="wavebox">
 
-<a href="https://wavebox.me/wave/51k3vxs5906gcigl/">
-ご感想はこちらに 🌊📦️
+<span class="wavebox-message">
+💬 ご感想はこちら
+</span>
+
+<a class="wavebox-link"
+   href="https://wavebox.me/wave/51k3vxs5906gcigl/">
+🌊📦️
 </a>
 
 </div>
-
 # 作品一覧
 
 ## 連載
