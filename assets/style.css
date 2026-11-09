@@ -189,14 +189,11 @@ a:hover{
 ======================================== */
 
 .wavebox{
-    text-align: center;
-    margin: 2rem 0;
+    text-align:center;
+    margin:1rem 0;
+    font-size:0.9rem;
 }
 
-.wavebox-message{
-    font-size: 0.9rem;
-    line-height: 1.8;
-}
 
 .wavebox-link{
     font-size: 0.9rem;
