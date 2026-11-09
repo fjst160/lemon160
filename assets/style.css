@@ -61,11 +61,13 @@ h1{
 }
 
 /* サブコメント */
-.subtitle{
-    font-size: 0.45em;
-    color: #777;
-    font-weight: normal;
-    margin-left: 0.5rem;
+.novel-subtitle{
+    font-size: 0.9rem;
+    color: #666;
+
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
 }
 
 
