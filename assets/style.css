@@ -196,7 +196,10 @@ a:hover{
 .wavebox-message{
     font-size: 0.9rem;
     line-height: 1.8;
-    margin-bottom: 0.5rem;
+}
+
+.wavebox-link{
+    font-size: 0.9rem;
 }
 
 /* ========================================
