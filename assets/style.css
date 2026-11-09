@@ -189,14 +189,17 @@ a:hover{
 ======================================== */
 
 .wavebox{
-    text-align:center;
-    margin:1rem 0;
-    font-size:0.9rem;
+    text-align: center;
+    margin: 1rem 0 2rem;
 }
 
+.wavebox-message{
+    font-size: 0.8rem;
+    color: #666;
+}
 
 .wavebox-link{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* ========================================
