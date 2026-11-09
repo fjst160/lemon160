@@ -213,3 +213,13 @@ a:hover{
     }
 
 }
+
+.wavebox{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.wavebox a{
+    display: inline-block;
+    margin-top: 0.5rem;
+}
