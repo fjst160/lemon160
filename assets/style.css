@@ -224,7 +224,7 @@ a:hover{
     body{
         padding: 1rem;
         font-size: 20px;
-        line-height: 1.8;
+        line-height: 2.8;
     }
 
     nav{
@@ -256,5 +256,10 @@ a:hover{
         margin-top: 0;
         margin-bottom: 0.1rem;
     }
+
+.novel-content,
+.novel-content p{
+    line-height: 1.8;
+}
    
 }
