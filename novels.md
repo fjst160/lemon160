@@ -87,7 +87,7 @@ title: 作品一覧
 ## notCP
 
 {% for novel in site.novels %}
-{% if novel.length == "短編" %}
+{% if novel.length == "notCP" %}
 
 [{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）
 
