@@ -184,17 +184,20 @@ a:hover{
     background: #e4caca;
 }
 
+/* ========================================
+   WaveBox
+======================================== */
+
 .wavebox{
     text-align: center;
     margin: 2rem 0;
 }
 
-.wavebox a{
-    display: inline-block;
-    margin-top: 0.5rem;
+.wavebox-message{
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
 }
-
-
 
 /* ========================================
    スマホ
