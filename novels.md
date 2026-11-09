@@ -20,12 +20,12 @@ title: 作品一覧
 
 ## 連載
 
-{% for novel in site.novels %}
-{% if novel.length == "連載" %}
+## 連載
 
-[{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）{% if novel.subtitle %}<span class="novel-subtitle">｜ {{ novel.subtitle }}</span>{% endif %}
+{% for series in site.series %}
 
-{% endif %}
+[{{ series.title }}]({{ site.baseurl }}{{ series.url }})（{{ series.rating }}{% if series.setting == "現パロ" %}・現パロ{% endif %}）{% if series.subtitle %}<span class="novel-subtitle">｜ {{ series.subtitle }}</span>{% endif %}
+
 {% endfor %}
 
 ## 長編
