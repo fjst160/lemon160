@@ -6,11 +6,10 @@ baseurl: "/lemon160"
 collections:
   novels:
     output: true
+  series:
+    output: true
 
 markdown: kramdown
 
 kramdown:
   hard_wrap: true
-
-  series:
-    output: true
