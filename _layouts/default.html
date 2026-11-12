@@ -22,7 +22,19 @@
   {% endif %}
 </header>
 
-<h1>日和</h1>
+{% if page.url == "/" %}
+<h1 class="site-title">
+  <a href="{{ site.baseurl }}/">
+    {{ site.title }}
+  </a>
+</h1>
+{% else %}
+<h1 class="site-title-small">
+  <a href="{{ site.baseurl }}/">
+    {{ site.title }}
+  </a>
+</h1>
+{% endif %}
 
 <nav>
     <a href="{{ site.baseurl }}/">TOP</a>
