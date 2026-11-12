@@ -1,6 +1,30 @@
 ---
 layout: default
 ---
+
+{% comment %} 該当するシリーズのインデックス（目次）ページを取得 {% endcomment %}
+{% assign series_index_page = site.series | where: "series_id", page.series_id | where: "series_index", true | first %}
+
+{% comment %} 同じ series_id を持つ小説を episode 順にソートして、前後の話を判定する {% endcomment %}
+{% assign current_series_id = page.series_id %}
+{% assign series_novels = site.novels | where: "series_id", current_series_id | sort: "episode" %}
+
+{% assign prev_novel = nil %}
+{% assign next_novel = nil %}
+{% assign found_current = false %}
+
+{% for n in series_novels %}
+  {% if found_current and next_novel == nil %}
+    {% assign next_novel = n %}
+  {% endif %}
+  {% if n.url == page.url %}
+    {% assign found_current = true %}
+  {% endif %}
+  {% unless found_current %}
+    {% assign prev_novel = n %}
+  {% endunless %}
+{% endfor %}
+
 <h1 class="novel-title">{{ page.title }}</h1>
 
 <hr>
@@ -9,8 +33,22 @@ layout: default
 
 <hr>
 
-<p>
-<a href="{{ site.baseurl }}/novels.html">
-作品一覧へ戻る
-</a>
-</p>
+<div class="novel-navigation" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0; font-size: 0.95rem;">
+  <div style="text-align: left; width: 30%;">
+    {% if prev_novel %}
+      <a href="{{ site.baseurl }}{{ prev_novel.url }}">« {{ prev_novel.title }}</a>
+    {% endif %}
+  </div>
+  
+  <div style="text-align: center; width: 40%;">
+    {% if series_index_page %}
+      <a href="{{ site.baseurl }}{{ series_index_page.url }}">目次へ戻る</a>
+    {% endif %}
+  </div>
+  
+  <div style="text-align: right; width: 30%;">
+    {% if next_novel %}
+      <a href="{{ site.baseurl }}{{ next_novel.url }}">{{ next_novel.title }} »</a>
+    {% endif %}
+  </div>
+</div>
