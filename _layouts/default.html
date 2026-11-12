@@ -14,10 +14,19 @@
 </head>
 <body>
 
+{% assign series_page = site.series
+    | where: "series_id", page.series_id
+    | where: "series_index", true
+    | first %}
 
-    
 <header>
-    <img src="{{ site.baseurl }}/assets/images/header.png">
+    {% if series_page.header_image %}
+        <img src="{{ site.baseurl }}{{ series_page.header_image }}">
+    {% elsif page.header_image %}
+        <img src="{{ site.baseurl }}{{ page.header_image }}">
+    {% else %}
+        <img src="{{ site.baseurl }}/assets/images/header.png">
+    {% endif %}
 </header>
 
 {% if page.url == "/" %}
