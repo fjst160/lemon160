@@ -35,7 +35,13 @@
 
 <hr>
 
-{{ content }}
+{% if page.url == "/history.html" %}
+<div class="history-content">
+    {{ content }}
+</div>
+{% else %}
+    {{ content }}
+{% endif %}
 
 </body>
 </html>
