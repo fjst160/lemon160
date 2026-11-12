@@ -14,27 +14,13 @@
 </head>
 <body>
 
+
 <header>
-  {% if page.url == "/" %}
-    <img class="hero-image" src="https://github.com/fjst160/lemon160/blob/main/assets/images/header.png">
-  {% else %}
-    <img class="sub-image" src="https://github.com/fjst160/lemon160/blob/main/assets/images/header.png">
-  {% endif %}
+  <img src="/images/header.png">
 </header>
 
-{% if page.url == "/" %}
-<h1 class="site-title">
-  <a href="{{ site.baseurl }}/">
-    {{ site.title }}
-  </a>
-</h1>
-{% else %}
-<h1 class="site-title-small">
-  <a href="{{ site.baseurl }}/">
-    {{ site.title }}
-  </a>
-</h1>
-{% endif %}
+
+<h1>日和</h1>
 
 <nav>
     <a href="{{ site.baseurl }}/">TOP</a>
