@@ -15,8 +15,11 @@
 <body>
 
 <header>
-    <img src="{{ site.baseurl }}/assets/images/header.png"
-         alt="header">
+  {% if page.url == "/" %}
+    <img class="hero-image" src="～">
+  {% else %}
+    <img class="sub-image" src="～">
+  {% endif %}
 </header>
 
 <h1>日和</h1>
