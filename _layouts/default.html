@@ -15,8 +15,20 @@
     | first %}
 
 <header>
-    {% if series_page.header_image %}
-        <img src="{{ site.baseurl }}{{ series_page.header_image }}">
+    {% if page.url == "/" or page.url == "/index.html" %}
+        <img src="{{ site.baseurl }}/assets/images/header.png">
+    {% elsif page.series_id %}
+        {% assign series_page = site.series
+            | where: "series_id", page.series_id
+            | where: "series_index", true
+            | first %}
+        {% if series_page.header_image %}
+            <img src="{{ site.baseurl }}{{ series_page.header_image }}">
+        {% elsif page.header_image %}
+            <img src="{{ site.baseurl }}{{ page.header_image }}">
+        {% else %}
+            <img src="{{ site.baseurl }}/assets/images/header.png">
+        {% endif %}
     {% elsif page.header_image %}
         <img src="{{ site.baseurl }}{{ page.header_image }}">
     {% else %}
