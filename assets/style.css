@@ -28,7 +28,7 @@ header{
     margin-bottom: 1rem;
 }
 
-.hero-image{
+header img{
     width: 100%;
     height: 280px;
 
@@ -36,13 +36,6 @@ header{
     display: block;
 }
 
-.sub-image{
-    width: 100%;
-    height: 120px;
-
-    object-fit: cover;
-    display: block;
-}
 .site-title a,
 .site-title-small a{
     color: #7a3030;
