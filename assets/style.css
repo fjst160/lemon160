@@ -43,6 +43,16 @@ header{
     object-fit: cover;
     display: block;
 }
+.site-title a,
+.site-title-small a{
+    color: #7a3030;
+    text-decoration: none;
+}
+
+.site-title a:visited,
+.site-title-small a:visited{
+    color: #7a3030;
+}
 
 
 /* ========================================
