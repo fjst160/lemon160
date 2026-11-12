@@ -18,10 +18,6 @@
     {% if page.url == "/" or page.url == "/index.html" %}
         <img src="{{ site.baseurl }}/assets/images/header.png">
     {% elsif page.series_id %}
-        {% assign series_page = site.series
-            | where: "series_id", page.series_id
-            | where: "series_index", true
-            | first %}
         {% if series_page.header_image %}
             <img src="{{ site.baseurl }}{{ series_page.header_image }}">
         {% elsif page.header_image %}
@@ -36,10 +32,8 @@
     {% endif %}
 </header>
 
-{% if page.url == "/" %}
+{% if page.url == "/" or page.url == "/index.html" %}
 <h1>{{ site.title }}</h1>
-{% elsif page.title and page.layout != "novel" %}
-<h1>{{ page.title }}</h1>
 {% endif %}
     
 <nav>
