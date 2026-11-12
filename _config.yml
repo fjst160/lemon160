@@ -12,9 +12,5 @@ markdown: kramdown
 kramdown:
   hard_wrap: true
 
-collections:
-  novels:
-    output: true
-
   series:
     output: true
