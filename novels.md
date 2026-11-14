@@ -3,6 +3,8 @@ layout: default
 title: 作品一覧
 ---
 
+# 作品一覧
+
 <div class="wavebox">
 
 <span class="wavebox-message">
@@ -16,7 +18,6 @@ title: 作品一覧
 
 </div>
 
-# 作品一覧
 
 ## 連載
 
