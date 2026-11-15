@@ -42,10 +42,11 @@ title: 作品一覧
 {% for novel in site.novels %}
 {% if novel.length == "中編" %}
 
-[{{ novel.title }}]({{ site.baseurl }}{{ novel.url }})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）{% if novel.subtitle %}<span class="novel-subtitle">｜ {{ novel.subtitle }}</span>{% endif %}
+[{{ novel.title }}]({% if novel.medium_pages and novel.medium_pages.size > 0 %}{{ site.baseurl }}{{ novel.medium_pages.first }}{% else %}{{ site.baseurl }}{{ novel.url }}{% endif %})（{{ novel.rating }}{% if novel.setting == "現パロ" %}・現パロ{% endif %}）{% if novel.subtitle %}<span class="novel-subtitle">｜ {{ novel.subtitle }}</span>{% endif %}{% if novel.medium_pages and novel.medium_pages.size > 0 %}{% for page_url in novel.medium_pages %}{% assign page_number = forloop.index | prepend: "00" | slice: -2, 2 %} [{{ page_number }}]({{ site.baseurl }}{{ page_url }}){% endfor %}{% endif %}
 
 {% endif %}
 {% endfor %}
+
 
 ## 短編
 
