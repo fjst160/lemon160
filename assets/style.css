@@ -293,3 +293,23 @@ a:hover{
 }
    
 }
+
+
+/* ========================================
+   中編
+======================================== */
+.medium-novel {
+  margin: 0.4rem 0;
+}
+
+.medium-novel__title {
+  margin-right: 0.35rem;
+}
+
+.medium-novel__rating {
+  margin-right: 0.35rem;
+}
+
+.medium-novel__pages a {
+  margin-right: 0.35rem;
+}
