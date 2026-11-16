@@ -9,18 +9,26 @@ layout: default
   | first
 %}
 
-{% comment %} 同じ series_id を持つ小説を episode 順にソートして、前後の話を判定する {% endcomment %}
-{% assign current_series_id = page.series_id %}
-{% assign series_novels = site.novels
-  | where: "series_id", current_series_id
-  | sort: "episode"
-%}
+{% comment %} 前後リンクの対象ページを取得 {% endcomment %}
+{% if page.medium_id %}
+  {% assign navigation_novels = site.novels
+    | where: "medium_id", page.medium_id
+    | sort: "part"
+  %}
+{% elsif page.series_id %}
+  {% assign navigation_novels = site.novels
+    | where: "series_id", page.series_id
+    | sort: "episode"
+  %}
+{% else %}
+  {% assign navigation_novels = "" | split: "," %}
+{% endif %}
 
 {% assign prev_novel = nil %}
 {% assign next_novel = nil %}
 {% assign found_current = false %}
 
-{% for n in series_novels %}
+{% for n in navigation_novels %}
   {% if found_current and next_novel == nil %}
     {% assign next_novel = n %}
   {% endif %}
